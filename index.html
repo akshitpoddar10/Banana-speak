@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Minion Translator</title>
+        <meta
+            name="description"
+            content="A website to translate English to Minion-ese"
+        />
+        <link rel="stylesheet" href="/style.css" />
+        <link rel="shortcut icon" type="image/svg" href="minions.png" />
+        <link rel="apple-touch-icon" href="/minions.png" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://kit.fontawesome.com/1070bba678.js" crossorigin="anonymous"></script>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body>
+    
+  <nav class="navigation">
+    <div class="nav-heading">
+      <img src="./minion-svg.svg" alt="" class="minion-svg">
+     <h1>Translate English to Minion-ese</h1>
+      <img src="./minion-svg.svg" alt="" class="minion-svg">
+    </div>
+    
+  </nav>
+
+
+        
+        <div class="main">
+            <img
+                class="image"
+                src="/minions.png"
+                alt="An illustration of a minion"
+            />
+            <label style="visibility: hidden" for="input">Input</label>
+            <textarea
+                class="textbox"
+                id="input"
+                placeholder="Your Input goes here put your sentence in English here and we will convert it to minion !"
+            ></textarea>
+            <button class="button">Translate</button>
+            <label style="visibility: hidden" for="output">Output</label>
+            <textarea
+                class="textbox"
+                id="output"
+                placeholder="Your output is shown here"
+                readonly
+            ></textarea>
+        </div>
+        <div id="op">
+            <div id="output-text"></div>
+            <div id="div-mic">
+                <button id="btn-mic">
+                    <i class="fa fa-microphone fa-x2"> Text to Speech</i>
+                </button>
+            </div>
+        </div> 
+        <footer>
+        <section>
+            <a href="https://www.kickassfacts.com/minion-facts/"
+                >Some Fun facts about minions</a
+        </section>   
+    
+    
+    <div class="footer-header">Connect with me here!<a class="footer__icon"> <i class='bx bx-conversation' ></i></a></div>      <div class="footer-ul">
+    <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/aditijindal/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/jindaladiti1806"> <i class="fa fa-github"></i></a>
+                    <a href="https://www.instagram.com/jindal_aditi_"><i class="fa fa-instagram"></i></a>
+                    <a href="https://twitter.com/jindal_aditi_"><i class="fa fa-twitter"></i></a>
+                </div>
+</footer>
+        <script src="app.js"></script>
+    </body>
+</html>
